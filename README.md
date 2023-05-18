@@ -8,7 +8,10 @@ This repository focuses on using Deep Learning to detect road accidents through 
 ##
 
 
-**1.Demonstration** ![collision](https://github.com/Robinr0027/vechicle-collision/assets/133769370/58d9749e-59a1-4547-b912-3c8b260fc7c9)
+**1.Demonstration** 
+
+![collision](https://github.com/Robinr0027/vechicle-collision/assets/133769370/58d9749e-59a1-4547-b912-3c8b260fc7c9)
+##
 
 **2.Prerequisites**
 -Python 3.10.9
