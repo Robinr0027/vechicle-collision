@@ -13,24 +13,24 @@ This repository focuses on using Deep Learning to detect road accidents through 
 -Familiarity with Twilio API and messaging services.
 
 4.**Getting Started - How to use it?**
-Clone this repository
+Clone this repository:https://github.com/Robinr0027/vechicle-collision.git
+
 To install all the packages required to run this python program pip install -r requirements.txt
+
 **Note:** This project requires a camera. So make sure you have a connected camera to your device. You can also use a downloaded video if not using a camera.
+
 **To run the program:**
 Before running the program, you need to run the accident-classification.ipynb file which will create the model_weights.h5 file. Then, to run this python program, you need to execute the main.py python file.
 streamlit run main.py.
 
 To use Twilio in your application, follow these steps:
-
-Sign up for a Twilio account at the Twilio website.
-Once you have an account, you will be provided with authentication credentials, including an Account SID and an Auth Token.
-Keep your Account SID and Auth Token secure, as they are used to authenticate and authorize your requests to Twilio's API.
-When making requests to Twilio's API, include your Account SID and Auth Token in the authentication headers or as parameters, depending on the specific API endpoint you are using.
-paste these in keys.py file.
+-Sign up for a Twilio account at the Twilio website.
+-Once you have an account, you will be provided with authentication credentials, including an Account SID and an Auth Token.
+-paste these in keys.py file.
 
 5.**Description**
-This program includes 4 things.
-data: Kaggle dataset on Accident Detection from CCTV footage.
-accident-classification.ipynb: This is a jupyter notebook that generates a model to classify the above data. This file generates two important files model.json and model_weights.h5.
-detection.py: This file loads the Accident Detection system with the help of model.json and model_weights.h5 files.
-camera.py: It packs the camera and executes the detection.py file on the video dividing it frame by frame and displaying the percentage of the prediction in the accident (if present) in the frame.
+This program includes 4 things:
+1.data: Kaggle dataset on Accident Detection from CCTV footage.
+2.accident-classification.ipynb: This is a jupyter notebook that generates a model to classify the above data. This file generates two important files model.json and model_weights.h5.
+3.detection.py: This file loads the Accident Detection system with the help of model.json and model_weights.h5 files.
+4.camera.py: It packs the camera and executes the detection.py file on the video dividing it frame by frame and displaying the percentage of the prediction in the accident (if present) in the frame.
