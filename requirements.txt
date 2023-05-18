@@ -1,0 +1,8 @@
+#python=3.9
+numpy
+pandas
+opencv-python
+tensorflow==2.8.0
+keras
+streamlit
+twilio
