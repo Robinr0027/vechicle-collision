@@ -26,7 +26,7 @@ This repository focuses on using Deep Learning to detect road accidents through 
 **Note:** This project requires a camera. So make sure you have a connected camera to your device. You can also use a downloaded video if not using a camera.
 
 **To run the program:**
-Before running the program, you need to run the accident-classification.ipynb file which will create the model_weights.h5 file.
+**Before running the program, you need to run the accident-classification.ipynb file which will create the model_weights.h5 file.**
 
  Then, to run this python program, you need to execute the main.py python file.
 
